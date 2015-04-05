@@ -19,3 +19,7 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', '
 #
 # Your code goes here:
 #
+count = 0
+planets.each do |planet|
+	puts "Planet #{count+=1}: #{planet}"
+end
